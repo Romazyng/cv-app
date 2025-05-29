@@ -76,7 +76,7 @@ export default function Form({
         <Input
           handleChange={handleChange}
           key={7}
-          type="email"
+          type="url"
           data={states.github}
           setter={states.setGithub}
           placeholder="Github"
