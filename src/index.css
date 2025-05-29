@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.grid {
+  grid-template-areas:
+    'header header'
+    'aside main';
+  grid-template-rows: 80px 1300px;
+  grid-template-columns: 288px 864px;
+}
